@@ -39,8 +39,8 @@
 	
 	var tableData = [];	
 		
-	//Sanford	
-    $.getJSON("http://api.openweathermap.org/data/2.5/forecast/daily/?id=4172086&units=imperial&appid=09bf011b56073de6cff36d95fcc99f44", function(data) {
+	//Kansas City	
+    $.getJSON("http://api.openweathermap.org/data/2.5/forecast/daily/?id=4273837&units=imperial&appid=09bf011b56073de6cff36d95fcc99f44", function(data) {
         var list = data.list,
             tableData = [];
 			var city = data.city;
